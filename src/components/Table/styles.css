@@ -1,0 +1,65 @@
+.table-wrapper {
+  width: 700px;
+}
+
+table{
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: middle;
+  border: 1px solid #E1E1E1;
+  padding: 0px 20px;
+  height: 40px;
+}
+
+td p {
+  margin: 0;
+}
+
+td div {
+  display: flex;
+  align-items: center;
+}
+
+thead {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.sort-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #0071CC;
+}
+
+.sort-active svg path{
+  stroke: #0071CC;
+}
+
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #747474;
+  margin-right: 10px;
+}
+
+.avatar img {
+  object-fit: cover;
+}
